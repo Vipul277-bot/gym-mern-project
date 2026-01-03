@@ -1,0 +1,214 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: whitesmoke;
+  background-color: #000;
+}
+
+/* COMMON */
+span {
+  color: orange;
+}
+
+.section {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+/* HERO SECTION */
+.details {
+  width: 100%;
+  height: 100vh;
+  background-image: url("https://wallpaperaccess.com/full/2968326.jpg");
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  padding-top: 200px;
+}
+
+.header-content h1 {
+  font-size: 48px;
+  margin: 0;
+}
+
+.header-content p {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+/* BUTTON */
+.btn {
+  background: orange;
+  color: white;
+  padding: 10px 25px;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 20px;
+  display: inline-block;
+  transition: 0.3s;
+}
+
+.btn:hover{
+    background-color: orange;
+    color: white;
+    box-shadow: 0 0 20px orange;
+}
+
+/* ABOUT SECTION */
+#about {
+  background-image: url("https://wallpapercave.com/wp/wp3132312.jpg");
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+}
+
+#about h1 {
+    font-size: 36px;
+    color: orange;
+    font-family: arial;
+    padding-top: 130px;
+    padding-left: 30px;
+    margin-bottom: 35px;
+    
+}
+
+#about pre {
+  text-align: justify;
+  padding-left: 700px;
+  white-space: pre-wrap;
+  font-family: arial;
+}
+
+/* PROGRAMS */
+#features {
+  background-image: url("https://wallpapercave.com/wp/wp3173142.jpg");
+  background-size: cover;
+  height: 95vh;
+  width: 100%;
+}
+#features h1{
+    font-size: 36px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.all-box {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 150px;
+}
+
+.feature-box {
+  background-color: #212529;
+  width: 320px;
+  height: 390px;
+  border-radius: 20px;
+  margin: 20px;
+  padding: 15px;
+  transition: 0.3s;
+}
+
+.feature-box:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 15px orange;
+}
+
+.feature-box h2 {
+  color: orange;
+  font-size: 18px;
+}
+
+.feature-box p {
+  text-align: justify;
+}
+
+/* CONTACT */
+#contact {
+  background-image: url("https://th.bing.com/th/id/R.35e6e83e8fe5ab6e543697afcd35e454?rik=RXEeRJf2PSfA6A&riu=http%3a%2f%2fwww.pixelstalk.net%2fwp-content%2fuploads%2f2016%2f06%2fFitness-hd-wallpapers-for-mobile.jpg&ehk=bp40IUmn1d7pDifMNNjWVeYFTkzhcnyeDfxbG2nE%2fnE%3d&risl=&pid=ImgRaw&r=0");
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+}
+
+.contact-form {
+  max-width: 600px;
+  margin: auto;
+}
+
+.container1 {
+  margin-bottom: 40px;
+}
+
+.heading1 {
+  font-size: 36px;
+  margin-bottom: 30px;
+}
+
+.contact-method {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.method i {
+  font-size: 30px;
+  color: orange;
+}
+
+.method p {
+  font-size: 18px;
+}
+
+/* INPUTS */
+.all-input {
+  padding-top: 50px;
+}
+.all-input h1{
+    font-size: 36px;
+}
+
+.input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  background: transparent;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  color: white;
+}
+
+.input::placeholder {
+  color: #ccc;
+}
+
+/* FOOTER */
+.footer {
+  background: black;
+  padding: 15px;
+  margin-top: 120px;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .details {
+    padding-top: 150px;
+  }
+
+  #about h1 {
+    padding-left: 20px;
+    text-align: center;
+  }
+
+  #about pre {
+    padding-left: 20px;
+  }
+
+  .feature-box {
+    width: 90%;
+  }
+
+  #contact {
+    height: auto;
+  }
+}
